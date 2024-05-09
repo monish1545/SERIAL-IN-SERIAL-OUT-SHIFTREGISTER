@@ -1,4 +1,7 @@
-# SERIAL-IN-SERIAL-OUT-SHIFTREGISTER
+# EX NO:10
+<P align='center'> <b>SERIAL-IN-SERIAL-OUT-SHIFTREGISTER</b>
+
+**DATE:**
 
 **AIM:**
 
@@ -25,18 +28,37 @@ Each D flip-flop in the circuit has a Data (D) input, a Clock (CLK) input, and a
 
 **Procedure**
 
-/* write all the steps invloved */
+1.Initialize the shift register to a known state (e.g., all zeros).
+
+2.Input a bit serially into the shift register.
+
+3.Shift the contents of the register one position to the right (or left).
+
+4.Output the shifted bit from the last stage of the register.
+
+5.Repeat steps 2-4 for each bit you want to input and shift.
+
+**Program for flipflops and verify its truth table in quartus using Verilog programming.**
+
+**Developed by:MONISH R**
+
+**RegisterNumber:212223050031**
 
 **PROGRAM**
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming.
+![328395493-bdc6cea5-8c6b-4a03-b1a1-d4ad9207aa13](https://github.com/monish1545/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/166646660/3fb2ee71-e00e-43a4-be29-8bc7b10a9622)
 
-Developed by: RegisterNumber:
-
-*/
 
 **RTL LOGIC FOR SISO Shift Register**
 
+![328395501-922635c7-7581-43a6-b13d-b383f068b571](https://github.com/monish1545/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/166646660/7f32ff7a-f60d-4176-b264-3ec38d6706aa)
+
+
 **TIMING DIGRAMS FOR SISO Shift Register**
 
+![328395516-e0cd5167-08db-41bc-93b3-b942fa137473](https://github.com/monish1545/SERIAL-IN-SERIAL-OUT-SHIFTREGISTER/assets/166646660/7a9ce244-cb66-4356-b75c-97265406ad1d)
+
+
 **RESULTS**
+
+ Thus the program executed successfully.
